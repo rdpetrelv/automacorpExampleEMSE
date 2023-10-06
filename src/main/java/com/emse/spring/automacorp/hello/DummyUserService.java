@@ -11,7 +11,7 @@ public class DummyUserService implements UserService {
 
     @Autowired
     public void GreetingServiceImpl(GreetingService greetingService){
-        this.greetingService =greetingService;
+        this.greetingService = greetingService;
     }
     @Override
     public void greetAll(List<String> name) {
