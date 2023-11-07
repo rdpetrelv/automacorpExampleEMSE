@@ -8,5 +8,5 @@ import org.springframework.data.repository.query.Param;
 
 public interface RoomDao extends JpaRepository<RoomEntity,Long > {
     @Query("select c from RoomEntity c where c.name =: name")
-    WindowEntity findByName(@Param("name") String name);
+    RoomEntity findByName(@Param("name") String name);
 }
