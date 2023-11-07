@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - RoomDaoTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>RoomDaoTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.emse.spring.automacorp.dao.html">com.emse.spring.automacorp.dao</a> &gt; RoomDaoTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.294s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">shouldFindARoomByID()</td>
+<td class="success">0.294s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>2023-11-07T16:33:23.607+01:00  INFO 14048 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.emse.spring.automacorp.dao.RoomDaoTest]: RoomDaoTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-11-07T16:33:23.644+01:00  INFO 14048 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.emse.spring.automacorp.AutomacorpApplication for test class com.emse.spring.automacorp.dao.RoomDaoTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.4)
+
+2023-11-07T16:33:23.711+01:00  INFO 14048 --- [    Test worker] c.e.spring.automacorp.dao.RoomDaoTest    : Starting RoomDaoTest using Java 17.0.8 with PID 14048 (started by HP in C:\Users\HP\Documents\07. EMSE\TB3- Web movil and embeded programming\01. WEB\Pruebas\automacorp)
+2023-11-07T16:33:23.712+01:00  INFO 14048 --- [    Test worker] c.e.spring.automacorp.dao.RoomDaoTest    : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2023-11-07T16:33:24.034+01:00  INFO 14048 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-07T16:33:24.078+01:00  INFO 14048 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 3 JPA repository interfaces.
+2023-11-07T16:33:24.116+01:00  INFO 14048 --- [    Test worker] beddedDataSourceBeanFactoryPostProcessor : Replacing 'dataSource' DataSource bean with embedded version
+2023-11-07T16:33:24.186+01:00  INFO 14048 --- [    Test worker] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:1d3bc794-c9b8-4a93-a272-75b96417348e;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2023-11-07T16:33:24.267+01:00  INFO 14048 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-07T16:33:24.291+01:00  INFO 14048 --- [    Test worker] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-07T16:33:24.293+01:00  INFO 14048 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-07T16:33:24.359+01:00  INFO 14048 --- [    Test worker] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-07T16:33:24.514+01:00  INFO 14048 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Hibernate: drop table if exists room cascade 
+Hibernate: drop table if exists sp_sensor cascade 
+Hibernate: drop table if exists sp_window cascade 
+Hibernate: drop sequence if exists room_seq
+Hibernate: drop sequence if exists sp_sensor_seq
+Hibernate: drop sequence if exists sp_window_seq
+Hibernate: create sequence room_seq start with 1 increment by 50
+Hibernate: create sequence sp_sensor_seq start with 1 increment by 50
+Hibernate: create sequence sp_window_seq start with 1 increment by 50
+Hibernate: create table room (floor integer not null, target_temperature float(53), id bigint not null, temperature_id bigint unique, name varchar(255) not null, primary key (id))
+Hibernate: create table sp_sensor (sensor_value float(53), id bigint not null, name varchar(255) not null, sensor_type varchar(255) check (sensor_type in ('TEMPERATURE','POWER','STATUS')), primary key (id))
+Hibernate: create table sp_window (id bigint not null, room_id bigint, window_status_id bigint unique, name varchar(255) not null, primary key (id))
+Hibernate: alter table if exists room add constraint FKd8lhmlwsckkrdrb6n70gt2mms foreign key (temperature_id) references sp_sensor
+Hibernate: alter table if exists sp_window add constraint FK6ervto83gmt68nqxgpo4fes3d foreign key (room_id) references room
+Hibernate: alter table if exists sp_window add constraint FKqdj6jbtn59whbpgt93n927yjn foreign key (window_status_id) references sp_sensor
+2023-11-07T16:33:24.532+01:00  INFO 14048 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-07T16:33:24.775+01:00  INFO 14048 --- [    Test worker] c.e.spring.automacorp.dao.RoomDaoTest    : Started RoomDaoTest in 1.126 seconds (process running for 13.334)
+Hibernate: select r1_0.id,r1_0.floor,r1_0.name,r1_0.target_temperature,t1_0.id,t1_0.name,t1_0.sensor_type,t1_0.sensor_value from room r1_0 left join sp_sensor t1_0 on t1_0.id=r1_0.temperature_id where r1_0.id=?
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.3</a> at 7 nov 2023 16:33:25</p>
+</div>
+</div>
+</body>
+</html>

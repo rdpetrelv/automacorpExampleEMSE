@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.emse.spring.automacorp.hello.DummyUserServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-11-07T15:33:25" hostname="DESKTOP-35ABBQB" time="0.007">
+  <properties/>
+  <testcase name="testGreetingAll(CapturedOutput)" classname="com.emse.spring.automacorp.hello.DummyUserServiceTest" time="0.007"/>
+  <system-out><![CDATA[Hello, Elodie!
+Hello, Charles!
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

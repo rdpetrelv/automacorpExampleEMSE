@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.emse.spring.automacorp.hello.ConsoleGreetingServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-11-07T15:33:25" hostname="DESKTOP-35ABBQB" time="0.006">
+  <properties/>
+  <testcase name="testGreeting(CapturedOutput)" classname="com.emse.spring.automacorp.hello.ConsoleGreetingServiceTest" time="0.006"/>
+  <system-out><![CDATA[Hello, Spring!
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
