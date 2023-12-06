@@ -1,5 +1,6 @@
 package com.emse.spring.automacorp.model;
 
+import com.emse.spring.automacorp.REST.SensorRecord;
 import jakarta.persistence.*;
 
 @Entity
@@ -11,7 +12,7 @@ public class Sensor {
     public long id;
 
     @Column(nullable = false, length = 255)
-    private String name;
+    public String name;
 
     @Column(name = "sensor_value")
     private Double value;
@@ -25,6 +26,12 @@ public class Sensor {
 
     public Sensor(String name, SensorType sensorType) {
         this.name = name;
+        this.sensorType = sensorType;
+    }
+
+    public Sensor(long id, String name, double value,  SensorType sensorType) {
+        this.name = name;
+        this.value = value;
         this.sensorType = sensorType;
     }
 
@@ -59,4 +66,5 @@ public class Sensor {
     public void setSensorType(SensorType sensorType) {
         this.sensorType = sensorType;
     }
+
 }

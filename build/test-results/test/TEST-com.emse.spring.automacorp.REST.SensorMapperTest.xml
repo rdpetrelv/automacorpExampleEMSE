@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.emse.spring.automacorp.REST.SensorMapperTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-12-03T22:16:19" hostname="DESKTOP-35ABBQB" time="0.009">
+  <properties/>
+  <testcase name="shouldMapSensor()" classname="com.emse.spring.automacorp.REST.SensorMapperTest" time="0.009"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

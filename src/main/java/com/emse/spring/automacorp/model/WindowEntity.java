@@ -15,6 +15,8 @@ public class WindowEntity {
     @OneToOne
     private Sensor windowStatus;
 
+
+
     @ManyToOne
     private RoomEntity room;
 
@@ -40,6 +42,9 @@ public class WindowEntity {
         return windowStatus;
     }
 
+    public RoomEntity getRoom() {
+        return room;
+    }
     public void setId(long id) {
         this.id = id;
     }

@@ -36,7 +36,7 @@ public class RoomEntity {
         this.floor = floor;
         this.name = name;
         this.temperature = current_temperature_id;
-        //this.target_temperature = targetTemperature;
+        this.target_temperature = targetTemperature;
         //this.windowsList = windowsList;
     }
 

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.emse.spring.automacorp.REST.SensorControllerTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2023-12-03T22:16:11" hostname="DESKTOP-35ABBQB" time="0.722">
+  <properties/>
+  <testcase name="shouldFindById()" classname="com.emse.spring.automacorp.REST.SensorControllerTest" time="0.475"/>
+  <testcase name="shouldCreate()" classname="com.emse.spring.automacorp.REST.SensorControllerTest" time="0.111"/>
+  <testcase name="shouldDelete()" classname="com.emse.spring.automacorp.REST.SensorControllerTest" time="0.015"/>
+  <testcase name="shouldUpdate()" classname="com.emse.spring.automacorp.REST.SensorControllerTest" time="0.013"/>
+  <testcase name="shouldFindAll()" classname="com.emse.spring.automacorp.REST.SensorControllerTest" time="0.047"/>
+  <testcase name="shouldNotUpdateUnknownEntity()" classname="com.emse.spring.automacorp.REST.SensorControllerTest" time="0.015"/>
+  <testcase name="shouldReturnNullWhenFindByUnknownId()" classname="com.emse.spring.automacorp.REST.SensorControllerTest" time="0.02"/>
+  <system-out><![CDATA[23:16:05.660 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.emse.spring.automacorp.REST.SensorControllerTest]: SensorControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+23:16:05.960 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.emse.spring.automacorp.AutomacorpApplication for test class com.emse.spring.automacorp.REST.SensorControllerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.4)
+
+2023-12-03T23:16:06.760+01:00  INFO 5196 --- [    Test worker] c.e.s.a.REST.SensorControllerTest        : Starting SensorControllerTest using Java 17.0.8 with PID 5196 (started by HP in C:\Users\HP\Documents\07. EMSE\TB3- Web movil and embeded programming\01. WEB\Pruebas\automacorp)
+2023-12-03T23:16:06.766+01:00  INFO 5196 --- [    Test worker] c.e.s.a.REST.SensorControllerTest        : No active profile set, falling back to 1 default profile: "default"
+2023-12-03T23:16:10.873+01:00  INFO 5196 --- [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-12-03T23:16:11.231+01:00  INFO 5196 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-12-03T23:16:11.231+01:00  INFO 5196 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-12-03T23:16:11.240+01:00  INFO 5196 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-12-03T23:16:11.309+01:00  INFO 5196 --- [    Test worker] c.e.s.a.REST.SensorControllerTest        : Started SensorControllerTest in 5.185 seconds (process running for 7.652)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
